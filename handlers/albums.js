@@ -134,7 +134,7 @@ function load_album(album_name, page, page_size, callback) {
                             console.log(only_files[i].filename);
                         }
                         // slice 返回
-                        var photos = only_files.slice(page * ps, ps);
+                        var photos = only_files.slice((page - 1) * ps, ps * page);
                         var obj = { short_name: album_name,
                                     photos: photos };
 
