@@ -1,6 +1,10 @@
 {
-    "name": "album-manager",
-    "version": "1.0",
-    "main": "./lib/albums.js",
-    "private" : true
+  "name": "Albums-Manager",
+  "description": "My Photo Sharing Application with static middleware",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "4.x",
+    "async": "0.1.x"
+  }
 }
